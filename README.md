@@ -31,3 +31,6 @@ The UI should have two pages:
 #### Additional requirements:
 * Hooks should be used where suitable
 * A CSS framework of your choice may be used to style the components
+
+We will accept either a GitHub link to the finished project or a zip with the entire `react-interview` folder.<br>
+Good luck! 
