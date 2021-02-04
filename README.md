@@ -34,3 +34,14 @@ The UI should have two pages:
 
 We will accept either a GitHub link to the finished project or a zip with the entire `react-interview` folder.<br>
 Good luck! 
+
+#### Notes - Marwan Johnstone:
+Thank you for giving me the opportunity to show you some of what I can do! '
+I decided to implement the UI using some CSS frameworks, CSS overrides, and some inline styling.
+
+Some of the packages & tools I ended up using:
+* Material UI for most CSS components, overriding and inline styling when necessary
+* React-toastify for user feedback when fetching and running tests
+
+I used React Context to manage the state overall (although some components do inherit properties),
+that way every component can have access to application wide information. 
