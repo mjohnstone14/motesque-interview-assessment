@@ -7,10 +7,17 @@ import { Typography } from '@material-ui/core';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
+/**
+ * Component that lists the test buttons in accordions based on category.
+ * Each button is constructed to have a fetch POST onClick to the API
+ */
 export default function HomePage() {
   const context = useContext(AppContext);
 
+  /**
+   * Appends category accordions that map
+   * respective test button components to each
+   */
   const renderCategoryAccordions = () => {
     let categories = context.getCategories();
     let testAccordions = [];
